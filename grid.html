@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Site com Grid Layout e forms</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="box header">
+      <p>FAÇA SUA RESERVA</p>
+    </div>
+    <div class="box sidebar">Sidebar
+      <section class="parallax">
+        <h1>Bem vindo!</h1>
+      </section>
+    </div>
+    <div class="box content">Content
+      <form>
+        <label for="nome">Digite seu nome completo:</label>
+        <input type="nome" id="nome" name="nome"><br><br>
+
+        <label for="motivo">Motivo da sua reserva:</label>
+        <input type="motivo" id="motivo" name="motivo"><br><br>
+
+        <label for="date">Data que ira reservar:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="textarea">Observações:</label><br>
+        <textarea id="textarea" name="textarea" rows="2" cols="10"></textarea><br>
+
+        <label for="radio">Forma de pagamento:</label><br>
+        <input type="radio" id="radio1" name="radio" value="radio1">
+        <label for="radio1">Cartão</label><br>
+        <input type="radio" id="radio2" name="radio" value="radio2">
+        <label for="radio2">Pix</label><br>
+      </form>
+    </div>
+    <div class="box footer">
+      <p>EM CASO DE DUVIDAS ENTRE EM CONTATO ESSE EMAIL:<br>
+        laurapigosso@gmail.com</p>
+    </div>
+  </div>
+</body>
+
+</html>
